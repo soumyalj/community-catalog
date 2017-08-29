@@ -11,7 +11,7 @@
       description: "Multiline test"
       label: "DESC"
       default: "myline"
-      type: "string"
+      type: "multiline"
 multilinetest:
   description: "multilinetest" 
 
