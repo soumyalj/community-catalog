@@ -3,7 +3,7 @@ services:
   test1:
     image: sangeetha/multilinetest
     environment:
-      DESC: myline
+      DESC: ${DESC}
     stdin_open: true
     tty: true
     labels:
