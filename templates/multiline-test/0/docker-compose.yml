@@ -1,11 +1,6 @@
-version: '2'
-services:
-  test1:
-    image: sangeetha/multilinetest
-    environment:
-      DESC: ${DESC}
-    stdin_open: true
-    tty: true
-    labels:
-      io.rancher.container.pull_image: always
+multilinetest:
+  tty: true
+  image: sangeetha/multilinetest 
+  environment:
+  - DESC=${DESC}
 
