@@ -1,0 +1,17 @@
+version: '2'
+catalog:
+  name: multilinetest
+  version: v1.0
+  description: |
+    (Experimental) Multiline test.
+  minimum_rancher_version: v1.6.0
+  maintainer: "<soumya.ljkgmail.com>"
+  questions:
+    - variable: "DESC"
+      description: "Multiline test"
+      default: "myline"
+      type: "string"
+services:
+  multilinetest:
+    description: "multilinetest" 
+
