@@ -9,6 +9,7 @@
   questions:
     - variable: "DESC"
       description: "Multiline test"
+      label: "DESC"
       default: "myline"
       type: "string"
 multilinetest:
